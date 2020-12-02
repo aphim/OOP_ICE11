@@ -58,6 +58,9 @@ public class Mathf
     public static float Sqrt(final float f) {
         return (float) (Math.sqrt((double) (f)));
     }
+    public static double Sqrt(final double f) {
+        return (double) (Math.sqrt((double) (f)));
+    }
 
     public static float Abs(final float f) {
         return Math.abs(f);
